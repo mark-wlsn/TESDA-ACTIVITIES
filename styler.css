@@ -1,0 +1,128 @@
+body{
+    background: rgb(9,50,121);
+    background: linear-gradient(101deg, rgba(9,50,121,1) 0%, rgba(77,9,123,1) 75%);
+}
+.sidenav-trigger{
+    margin-left: 30px;
+    font-size: 50px;
+    color: aquamarine;
+    
+}
+nav{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+/* ETO YUNG CSS PARA SA PANEL */
+/* .card-panel-black {
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    padding: 24px;
+    margin: .5rem 0 1rem 0;
+    border-radius: 2px;
+    background-color: #fff;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 500px;
+    height: 500px;
+} */
+
+.col.grid-example{
+    border: 1px solid white;
+    margin: 20px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    background-color: tomato;
+    color: white;
+    padding: 0;
+}
+.col.grid-example1{
+    border: 1px solid white;
+    margin: 20px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    color: white;
+    padding: 0;
+}
+.col.grid-example2{
+    border: 1px solid white;
+    margin: 20px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    color: white;
+    padding: 0;
+}
+.col.grid-example3{
+    border: 1px solid white;
+    margin: 20px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    color: black;
+    padding: 0;
+}
+.col.promotional-table{
+    border: 1px solid white;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    color: black;
+    padding: 0;
+}
+.text{
+    line-height: 1.25;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.col.grid-example4{
+    border: 1px solid white;
+    margin: 0px 0;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 28px;
+    color: black;
+    padding: 0;
+}
+.col.grid-example5{
+    border: 1px solid white;
+    margin: 0px 0;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    padding: 0;
+}
+.col.grid-example6{
+    border: 1px solid white;
+    margin: 0px 0;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    padding: 0;
+}
+.text-1{
+    line-height: 1.25;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:large;
+}
+.text2{
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size:larger;
+    line-height: 2;
+    color: whitesmoke;
+}
+

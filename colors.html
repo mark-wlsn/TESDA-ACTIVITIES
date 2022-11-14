@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="styler.css">
+    <title>Color and Buttons</title>
+</head>
+<body class="white lighten-2">
+    <nav class="white">
+
+      <!-- Side Nav -->
+    <ul id="slide-out" class="sidenav">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="images/wallpaper.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="images/pogi.jpg"></a>
+        <a href="#name"><span class="white-text name">Mark Wilson Lawas</span></a>
+        <a href="#email"><span class="white-text email">markwilsonlawas30@gmail.com</span></a>
+      </div></li>
+      <li><a href="#!"><i class="material-icons">desktop_windows</i>BSCpE</a></li>
+      <li><a href="#!"><i class="material-icons">contacts</i>09762076842</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">More</a></li>
+      <li><a href="#!"></i>I am Mark Wilson Lawas.</a></li>
+      <li><a href="#!"></i>STAN TWICE</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="small material-icons black-text">menu</i></a>
+
+      <div class="container">
+        <!-- Navbar -->
+        <a class="brand-logo black-text text-darken-2">CWD Batch 5 AM Class</a>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo black-text center">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#" class="black-text">Home</a></li>
+            <li><a href="#" class="black-text">About</a></li>
+            <li><a href="#" class="black-text">Contact us</a></li>
+            <!-- Dropdown Structure Trigger (yung tag na to itatabi mo sa <li>)-->
+            <li><a class="dropdown-trigger black-text" data-target="dropdown1">Click Me<i class="material-icons right black-text">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="https://www.youtube.com/watch?v=k6jqx9kZgPM" class="black-text">Twice</a></li>
+      <li class="divider"></li>
+      <li><a href="#" class="black-text">Itzy</a></li>
+      <li class="divider"></li>
+      <li><a href="#" class="black-text">IVE</a></li>
+    </ul> 
+
+        <div class="container">
+            <h2 class="white-text text-darken-1">Colors</h2>
+            <h4 class="white-text text-darken-1">Background Colors</h4>
+        <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2</div>
+        <div class="card-panel indigo lighten-2">This is a card panel with a indigo lighten-2</div>
+
+        <!-- Text color -->
+        <h4 class="white-text text-darken-1">Text Colors</h4>
+        <div class="card-panel">
+            <span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
+        </div>
+        <div class="card-panel purple lighten-2">
+            <span class="white-text text-lighten-2">This is a card panel with lighten white text</span>
+        </div>
+
+        <!-- Buttons -->
+        <h2 class="white-text text-darken-1">Buttons</h2>
+        <h5 class="white-text text-darken-1">Raise Buttons</h5>
+        <a class="btn amber waves-effect waves-light">Button</a>
+        <a class="btn deep-purple waves-effect waves-light">
+            <i class="material-icons left">cloud</i>
+            Button</a>
+        <a class="btn red waves-effect waves-light">
+            <i class="material-icons right">cloud</i>Button</a>
+        <h4 class="white-text text-darken-1">Floating</h4>
+        <a class="btn-floating btn-large waves-effect waves-light red pulse">
+            <i class="material-icons">add</i>
+        </a>
+        <!-- Flat Button -->
+        <h5 class="white-text text-darken-1">Flat</h5>
+        <a class="btn-flat waves-effect waves-teal white">flat</a>
+        <!-- Submit Button -->
+        <h5 class="white-text text-darken-1">Submit Button</h5>
+        <button class="btn waves-effect waves-light blue" type="submit" name="action"><i class="material-icons right">send</i>Submit</button>
+        <!-- Large Buttons -->
+        <h5 class="white-text text-darken-1">Large Buttons</h5>
+        <button class="btn waves-effect waves-light btn-large blue" type="submit" name="action"><i class="material-icons right">send</i>Submit</button>
+        <!-- Small Buttons -->
+        <h5 class="white-text text-darken-1">Small Buttons</h5>
+        <button class="btn waves-effect waves-light btn-small blue" type="submit" name="action"><i class="material-icons right">send</i>Submit</button>
+        <!-- Disable -->
+        <h5 class="white-text text-darken-1">Disable</h5>
+        <button class="btn  waves-effect waves-light btn-small disabled blue" type="submit" name="action"><i class="material-icons right">send</i>Submit</button>
+    </div>
+
+<!-- Action Button -->
+<div class="fixed-action-btn">
+        <a class="btn-floating btn-large blue">
+          <i class="material-icons">edit</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+          <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+          <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+          <li><a class="btn-floating neon"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+
+      <!-- Media CSS -->
+      <!-- Responsive Image -->
+  <div class="container">
+    <h4 class="white-text">Responsive Image</h4>
+    <div class="row">
+      <div class="col s12 m3">
+      <img class="responsive-img" src="images/img 2.jpg">
+      </div>
+      <div class="col s12 m3">
+      <img class="responsive-img" src="images/img 3.jpg">
+      </div>
+      <div class="col s12 m3">
+      <img class="responsive-img" src="images/img 4.jpg">
+      </div>
+      <div class="col s12 m3 hide-on-med-and-down">
+      <img class="responsive-img" src="images/img 1.jpg">
+      </div>
+    </div>
+
+    <!-- Material Box -->
+    <h4 class="white-text">Material Box</h4>
+    <div class="row">
+      <div class="col s12 m3">
+      <img class="materialboxed responsive-img" width="245" src="images/img 2.jpg">
+      </div>
+      <div class="col s12 m3">
+      <img class="materialboxed responsive-img" width="245" src="images/img 3.jpg">
+      </div>
+      <div class="col s12 m3">
+      <img class="materialboxed responsive-img"width="245" src="images/img 4.jpg">
+      </div>
+      <div class="col s12 m3 hide-on-med-and-down">
+      <img class="materialboxed responsive-img" width="245" src="images/img 1.jpg">
+      </div>
+    </div>
+
+      <!-- Responsive Embeds -->
+    <h4 class="white-text">Responsive Embeds</h4>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="video-container">
+          <iframe width="713" height="401" src="https://www.youtube.com/embed/F0B7HDiY-10" title="IVE 아이브 'After LIKE' MV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="video-container">
+          <iframe width="885" height="498" src="https://www.youtube.com/embed/k6jqx9kZgPM" title="TWICE "Talk that Talk" M/V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="images/img 5.jpg">
+          <div class="caption center-align">
+            <h3>MARK WILSON LAWAS</h3>
+            <h5 class="white-text">Your future Web Developer & Computer Engineer</h5>
+          </div>
+        </li>
+        <li>
+          <img src="images/img 2.jpg">
+          <div class="caption left-align">
+            <h3>I am 20 years old</h3>
+            <h5 class="white-text">Di ko na alam basta malapit na birthday ko</h5>
+          </div>
+        </li>
+        <li>
+          <img src="images/img 3.jpg">
+          <div class="caption right-align">
+            <h3>I am excited to be a Web Developer!</h3>
+            <h5 class="white-text">Gusto ko rin yumaman!!!</h5>
+          </div>
+        </li>
+        <li>
+          <img src="images/img 4.jpg">
+          <div class="caption center-align">
+            <h3>THANK YOU FOR WATCHING!</h3>
+            <h5 class="white-text">Sana humaba pa buhay niyo.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PANEL EXPERIMENT SAMPLE -->
+<!-- <div class="container">
+  <div class="card-panel-black">
+    <span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
+  </div>
+</div> -->
+
+<div class="container">
+  <!-- 12 columns -->
+  <div class="row">
+    <h3 class="white-text">12 Columns</h3>
+    <div class="col s1 grid-example blue darken-4">1</div>
+    <div class="col s1 grid-example blue darken-3">2</div>
+    <div class="col s1 grid-example blue darken-2">3</div>
+    <div class="col s1 grid-example blue darken-1">4</div>
+    <div class="col s1 grid-example blue">5</div>
+    <div class="col s1 grid-example blue lighten-1">6</div>
+    <div class="col s1 grid-example blue lighten-2">7</div>
+    <div class="col s1 grid-example blue lighten-3">8</div>
+    <div class="col s1 grid-example blue lighten-4">9</div>
+    <div class="col s1 grid-example blue lighten-5">10</div>
+    <div class="col s1 grid-example blue accent-4">11</div>
+    <div class="col s1 grid-example blue accent-3">12</div>
+  </div>
+
+  <!-- Columns live inside Rows -->
+  <div class="row">
+    <h3 class="white-text">Columns live inside Rows</h3>
+    <div class="col s12 grid-example1 blue lighten-1">This div is 12-columns wide on all screen sizes</div>
+    <div class="col s6 grid-example1 blue lighten-1">6-columns (one-half)</div>
+    <div class="col s6 grid-example1 blue lighten-1">6-columns (one-half)</div>
+  </div>
+
+  <!-- Offsets -->
+  <div class="row">
+    <h3 class="white-text">Offsets</h3>
+    <div class="col s12 grid-example2 indigo accent-1"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+    <div class="col s6 grid-example2 offset-s6 indigo accent-1"><span class="flow-text">6-columns (offset-by-6)</span></div>
+  </div>
+
+  <!-- Push and Pull -->
+  <h3 class="white-text">Push and Pull</h3>
+  <div class="row">
+    <div class="col s12 m5 l7 push-l5 grid-example3 purple accent-1"><span class="flow-text">This div is 7-columns wide on pushed to the right by 5-columns.</span></div>
+    <div class="col hide-on-small-only m7 l5 pull-l7 grid-example3 cyan accent-1"><span class="flow-text">5-columns wide pulled to the left by 7-columns.</span></div>
+  </div>
+
+  <!-- Creating Layouts -->
+  <h3 class="white-text">Title</h3>
+  <div class="divider"></div>
+  <div class="section">
+    <h5 class="white-text">Section 1</h5>
+    <p class="white-text">Stuff</p>
+  </div>
+  <div class="divider"></div>
+  <div class="section">
+    <h5 class="white-text">Section 2</h5>
+    <p class="white-text">Stuff</p>
+  </div>
+  <div class="divider"></div>
+  <div class="section">
+    <h5 class="white-text">Section 3</h5>
+    <p class="white-text">Stuff</p>
+  </div>
+  <div class="divider"></div>
+
+  <!-- Promotion Table -->
+  <h3 class="white-text">Promotional table</h3>
+  <div class="row">
+    <div class="col s4 promotional-table deep-purple accent-1">
+      <p class="text">Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus iaculis himenaeos metus neque quis orci nam sagittis lacinia. Massa eget egestas molestie a neque sollicitudin elit.</p>
+    </div>
+    <div class="col s4 promotional-table light-blue lighten-4">
+      <p class="text">Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus iaculis himenaeos metus neque quis orci nam sagittis lacinia. Massa eget egestas molestie a neque sollicitudin elit.</p>
+    </div>
+    <div class="col s4 promotional-table lime accent-1">
+      <p class="text">Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus iaculis himenaeos metus neque quis orci nam sagittis lacinia. Massa eget egestas molestie a neque sollicitudin elit.</p>
+    </div>
+  </div>
+
+  <!-- Side Navigation Layout -->
+  <div class="row">
+    <h3 class="white-text">Side Navigation Layout</h3>
+    <div class="col s12 grid-example4 orange lighten-1">
+      NAVIGATION BAR
+    </div>
+    <div class="col s3 grid-example4 cyan accent-1">
+      <p class="text-1">Lorem ipsum odor amet, consectetuer adipiscing elit. At urna ante; nulla est gravida suscipit. Aenean convallis gravida blandit. Vitae tempor massa leo. Sagittis class nam lacinia? Consequat lobortis duis turpis consequat ornare. Arcu turpis fames vivamus morbi per. Faucibus penatibus aenean laoreet sapien commodo. Lacus efficitur id condimentum dictum.</p>
+    </div>
+    <div class="col s9 grid-example4 blue accent-2">
+      <p class="text-1">Lorem ipsum odor amet, consectetuer adipiscing elit. At urna ante; nulla est gravida suscipit. Aenean convallis gravida blandit. Vitae tempor massa leo. Sagittis class nam lacinia? Consequat lobortis duis turpis consequat ornare. Arcu turpis fames vivamus morbi per. Faucibus penatibus aenean laoreet sapien commodo. Lacus efficitur id condimentum dictum.</p>
+    </div>
+  </div>
+  
+  <!-- Adding Responsiveness -->
+    <div class="row">
+      <h3 class="white-text">Adding Responsiveness</h3>
+      <div class="grid-example5 col s12 pink lighten-1"><span class="flow-text">I am always full-width (col s12)</span></div>
+      <div class="grid-example5 col s12 m6 purple accent-1"><span class="flow-text">I am full-width on mobile (col s12 m6)</span></div>
+    </div>
+
+  <!-- Responsive Grid Examples -->
+  <h3 class="white-text">Responsive Grid Examples</h3>
+  <div class="row">
+    <div class="col s12 grid-example6 indigo darken-4"><p class="text2">TITLE GOES HERE</p></div>
+    <div class="col s12 m4 l2 grid-example6 indigo darken-3"><p class="text2">SIDE CONTENT</p></div>
+    <div class="col s12 m4 l8 grid-example6 indigo darken-2"><p class="text2">MAIN CONTENT</p></div>
+    <div class="col s12 m4 l2 grid-example6 indigo darken-1"><p class="text2">SIDE CONTENT</p></div>
+  </div>
+  <div class="row">
+    <div class="col s12 m6 l3 grid-example6 indigo"><p class="text2">CONTENT EME</p></div>
+    <div class="col s12 m6 l3 grid-example6 indigo lighten-1"><p class="text2">CONTENT EME</p></div>
+    <div class="col s12 m6 l3 grid-example6 indigo lighten-1"><p class="text2">CONTENT EME</p></div>
+    <div class="col s12 m6 l3 grid-example6 indigo lighten-1"><p class="text2">CONTENT EME</p></div>
+  </div>
+
+  <!-- Basic Cards -->
+  <h4 class="white-text">Cards</h4>
+  <div class="divider"></div>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card blue darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card deep-purple lighten-2 z-depth-5">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <h4 class="white-text">Cards</h4>
+  <div class="divider"></div>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/img 6.jpg">
+          <span class="card-title">Stairs</span>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Urna fermentum malesuada massa. Feugiat class metus dapibus morbi. Nulla taciti varius ultrices. Interdum pretium nostra.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/img 7.jpg">
+          <span class="card-title">Christmas Cake</span>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Urna fermentum malesuada massa. Feugiat class metus dapibus morbi. Nulla taciti varius ultrices. Interdum pretium nostra.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card z-depth-5">
+        <div class="card-image">
+          <img src="images/img 8.jpg">
+          <span class="card-title">Food</span>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Urna fermentum malesuada massa. Feugiat class metus dapibus morbi. Nulla taciti varius ultrices. Interdum pretium nostra.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FABS in Cards -->
+  <h3 class="white-text">FABs in Cards</h3>
+  <div class="divider"></div>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/img 9.jpg">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/img 9.jpg">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/img 8.jpg">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Horizontal Cards -->
+  <h3 class="white-text">Horizontal Cards</h3>
+  <div class="divider"></div>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="images/img 9.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="images/img 9.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Card Reveal -->
+  <h3 class="white-text">Card Reveal</h3>
+  <div class="divider"></div>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/img 10.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/img 11.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/img 12.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards Sizes -->
+  <h4 class="white-text">Cards Sizes</h4>
+  <div class="divider"></div>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card small">
+        <div class="card-image">
+          <img src="images/img 11.jpg">
+          <span class="card-title">Stairs</span>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Urna fermentum malesuada massa. Feugiat class metus dapibus morbi. Nulla taciti varius ultrices. Interdum pretium nostra.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card medium">
+        <div class="card-image">
+          <img src="images/img 11.jpg">
+          <span class="card-title">Stairs</span>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Urna fermentum malesuada massa. Feugiat class metus dapibus morbi. Nulla taciti varius ultrices. Interdum pretium nostra.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card large">
+        <div class="card-image">
+          <img src="images/img 11.jpg">
+          <span class="card-title">Stairs</span>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Urna fermentum malesuada massa. Feugiat class metus dapibus morbi. Nulla taciti varius ultrices. Interdum pretium nostra.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card Panel -->
+  <h4 class="white-text">Card Panel</h4>
+  <div class="divider"></div>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card-panel blue accent-1">
+          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel deep-purple accent-1">
+          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel indigo accent-1">
+          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Date Picker -->
+    <h4 class="white-text">Date Picker</h4>
+    <div class="row">
+      <div class="col s2">
+        <form action="">
+          <div class="input-field">
+            <input type="text" class="datepicker white-text">
+            <label for="date">Date</label>
+          </div>
+          <div class="input-field">
+            <input type="text" class="timepicker white-text">
+            <label for="time">Time</label>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Chips -->
+    <h4 class="white-text">Chips</h4>
+    <div class="row">
+      <div class="col s12 m6">
+        <!-- Contacts -->
+        <div class="chip cyan accent-1 black-text">
+          <img src="pogi.jpg" alt="Contact Person">
+          Mark Wilson Lawas
+        </div>
+        <!-- Tags -->
+        <div class="chip cyan accent-1 black-text">
+          Tag
+          <i class="close material-icons">close</i>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="chips"></div>
+        <div class="chips chips-initial"></div>
+        <div class="chips chips-placeholder"></div>
+        <div class="chips chips-autocomplete"></div>
+      </div>
+    </div>
+</div>
+      
+<div style="height: 1000px;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
